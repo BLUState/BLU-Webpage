@@ -1,6 +1,6 @@
 body
 {
-	background-color: #2EFEF7;
+	background-color: #011594;
 	color: white;
 	text-align: center;
 }
@@ -50,6 +50,11 @@ onTop
 	right: 16px;
 }
 
+table, th, td
+{
+	border: 1px solid white;
+}
+
 .circle
 {
 	height: 25px;
@@ -83,7 +88,8 @@ a
 .button
 {
     background-color: rgb(2, 2, 88);
-    border: none;
+	border: 1px solid white;
+	border-radius: 12px;
     color: white;
     padding: 15px 25px;
     text-align: center;
