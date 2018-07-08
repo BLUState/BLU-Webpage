@@ -5,7 +5,11 @@ body
 	text-align: center;
 }
 
-
+.bg
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 onTop
 {
