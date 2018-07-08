@@ -53,7 +53,7 @@ onTop
 table, th, td
 {
 	border: 1px solid white;
-	padding: 5px;
+	padding: 10px;
 }
 
 .circle
@@ -102,4 +102,15 @@ a
 {
 	transform: scale(1.05);
 	transition: 0.2s;
+}
+
+a
+{
+	color: white;
+}
+
+a:hover
+{
+	font-size: 20;
+	transition: 0.1s;
 }
