@@ -1,0 +1,92 @@
+body
+{
+	background-color: #2EFEF7;
+	color: white;
+	text-align: center;
+}
+
+.bg
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+onTop
+{
+	position: relative;
+	top: 0.3em;
+}
+
+.row
+{
+	display: flex;
+}
+
+.column
+{
+	flex: 33.33%;
+	padding: 5px;
+}
+
+.center
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bottomleft
+{
+	position: fixed;
+	bottom: 8px;
+	left: 16px;
+}
+
+.bottomright
+{
+	position: fixed;
+	bottom: 8px;
+	right: 16px;
+}
+
+.circle
+{
+	height: 25px;
+	width: 25px;
+	background-color: pink;
+	border-radius: 50%;
+}
+
+.square
+{
+	height: 25px;
+	width: 25px;
+	background-color: blue;
+}
+
+a
+{
+	color: blue;
+}
+
+.transbox
+{
+	margin: 30px;
+	height: 500px;
+	background-color: black;
+	border: 1px solid black;
+	opacity: 0.6;
+	overflow: auto;
+}
+
+.button
+{
+    background-color: rgb(2, 2, 88);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
