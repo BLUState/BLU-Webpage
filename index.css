@@ -50,6 +50,13 @@ onTop
 	right: 16px;
 }
 
+.bottomcenter
+{
+	position: fixed;
+	bottom: 8px;
+	left: 16px;
+}
+
 table, th, td
 {
 	border: 1px solid white;
