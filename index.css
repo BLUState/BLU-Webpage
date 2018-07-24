@@ -50,13 +50,6 @@ onTop
 	right: 16px;
 }
 
-.bottomcenter
-{
-	position: fixed;
-	bottom: 8px;
-	left: 16px;
-}
-
 table, th, td
 {
 	border: 1px solid white;
@@ -95,7 +88,8 @@ a
 
 .button
 {
-    background-color: rgb(2, 2, 88);
+	background-color: rgb(2, 2, 88);
+	width: 150px;
 	border: 1px solid white;
 	border-radius: 12px;
     color: white;
