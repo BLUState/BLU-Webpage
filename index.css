@@ -1,6 +1,6 @@
 body
 {
-	background-color: rgba(78, 81, 102, 1);;
+	background-color: rgba(78, 81, 102, 1);
 	color: rgba(124, 144, 160, 1);
 	text-align: center;
 }
@@ -115,7 +115,7 @@ a
 	width: 150px;
 	border: 1px solid rgba(124, 144, 160, 1);
 	border-radius: 12px;
-    color: rgba(124, 144, 160, 1);
+    color: rgb(144, 194, 235);
     padding: 15px 25px;
     text-align: center;
     font-size: 16px;
