@@ -1,7 +1,7 @@
 body
 {
-	background-color: #011594;
-	color: white;
+	background-color: rgba(78, 81, 102, 1);;
+	color: rgba(124, 144, 160, 1);
 	text-align: center;
 }
 
@@ -52,7 +52,7 @@ onTop
 
 table, th, td
 {
-	border: 1px solid white;
+	border: 1px solid rgba(124, 144, 160, 1);
 	padding: 10px;
 }
 
@@ -86,13 +86,36 @@ a
 	overflow: auto;
 }
 
+::-webkit-scrollbar
+{
+	width: 10px;
+}
+
+::-webkit-scrollbar-track
+{
+	background: #837a7a;
+	border-radius: 12px;
+}
+ 
+::-webkit-scrollbar-thumb
+{
+	background: rgb(43, 42, 42);
+	border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+	background: rgb(31, 31, 31);
+	border-radius: 12px;
+}
+
 .button
 {
 	background-color: rgb(2, 2, 88);
 	width: 150px;
-	border: 1px solid white;
+	border: 1px solid rgba(124, 144, 160, 1);
 	border-radius: 12px;
-    color: white;
+    color: rgba(124, 144, 160, 1);
     padding: 15px 25px;
     text-align: center;
     font-size: 16px;
@@ -107,7 +130,7 @@ a
 
 a
 {
-	color: white;
+	color: rgba(124, 144, 160, 1);
 }
 
 a:hover
