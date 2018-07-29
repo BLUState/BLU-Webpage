@@ -36,14 +36,6 @@ onTop
 	transform: translate(-50%, -50%);
 }
 
-.bottomcenter
-{
-	position: fixed;
-	top: 75%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
 .bottomleft
 {
 	position: fixed;
